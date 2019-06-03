@@ -13,13 +13,14 @@ import android.widget.ImageView;
 public class CamaraActivity extends AppCompatActivity {
 
     ImageView imageView;
+    Button buttonTomarFoto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camara);
 
-        Button buttonTomarFoto = findViewById(R.id.btnTomarFoto);
+        buttonTomarFoto = findViewById(R.id.btnTomarFoto);
         imageView = findViewById(R.id.imageView);
 
         buttonTomarFoto.setOnClickListener(new View.OnClickListener() {
