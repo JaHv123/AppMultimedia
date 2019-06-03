@@ -25,11 +25,11 @@ public class AudioActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(mp.isPlaying()){
                     mp.pause();
-                    play_pause.setBackgroundResource(R.drawable.btnPlay);
+                    play_pause.setBackgroundResource(R.drawable.btn_play);
                     Toast.makeText(AudioActivity.this,"Pausa", Toast.LENGTH_SHORT).show();
                 }else{
                     mp.start();
-                    play_pause.setBackgroundResource(R.drawable.btnPause);
+                    play_pause.setBackgroundResource(R.drawable.btn_pause);
                     Toast.makeText(AudioActivity.this,"Play", Toast.LENGTH_SHORT).show();
 
                 }
