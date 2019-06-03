@@ -19,25 +19,28 @@
 
     <Button
         android:id="@+id/btnAudio"
-        android:layout_width="80dp"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:translationX="170dp"
-        android:translationY="150dp"
-        android:text="Audio" />
+        android:translationY="80dp"
+        android:background="@drawable/audios"
+        />
 
     <Button
         android:id="@+id/btnVideo"
-        android:layout_width="80dp"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:translationX="170dp"
-        android:translationY="200dp"
-        android:text="Video" />
+        android:translationY="120dp"
+        android:background="@drawable/video"
+        />
 
     <Button
         android:id="@+id/btnCamera"
-        android:layout_width="80dp"
-        android:translationY="250dp"
+        android:layout_width="90dp"
+        android:translationY="150dp"
         android:translationX="170dp"
-        android:layout_height="wrap_content"
-        android:text="Camara" />
+        android:layout_height="100dp"
+        android:background="@drawable/camera"
+        />
 </LinearLayout>

@@ -46,8 +46,10 @@ public class VideoActivity extends AppCompatActivity implements View.OnClickList
                 break;
             case R.id.videoStop:
                 //Paramos el video y volvemos a inicializar
-                video.stopPlayback();
+                video.suspend();
                 video.seekTo(0);
+                video.resume();
+                video.pause();
                 break;
 
         }
