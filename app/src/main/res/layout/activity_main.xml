@@ -8,28 +8,36 @@
     android:background="@drawable/fondo"
     tools:context=".MainActivity" >
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplicación Multimedia"
+        android:textSize="70dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
     <Button
         android:id="@+id/btnAudio"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:translationX="170dp"
-        android:translationY="250dp"
-        android:text="Button" />
+        android:translationY="150dp"
+        android:text="Audio" />
 
     <Button
         android:id="@+id/btnVideo"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:translationX="170dp"
-        android:translationY="350dp"
-        android:text="Button" />
+        android:translationY="200dp"
+        android:text="Video" />
 
     <Button
         android:id="@+id/btnCamera"
         android:layout_width="80dp"
-        android:translationY="450dp"
+        android:translationY="250dp"
         android:translationX="170dp"
         android:layout_height="wrap_content"
-
-        android:text="Button" />
+        android:text="Camara" />
 </LinearLayout>

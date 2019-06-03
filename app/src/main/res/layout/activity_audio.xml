@@ -5,12 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
+    android:orientation="vertical"
     tools:context=".AudioActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reproductor de Audio"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="70dp" />
 
     <Button
         android:id="@+id/buttonCancion"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:background="@drawable/btn_play" />
+        android:background="@drawable/btn_play"
+        android:translationX="120dp"
+        android:translationY="30dp" />
+
 </LinearLayout>
 
