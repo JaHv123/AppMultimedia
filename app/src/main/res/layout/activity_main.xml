@@ -5,23 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:id="@+id/btnAudio"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
+        android:translationX="170dp"
+        android:translationY="250dp"
         android:text="Button" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
+        android:id="@+id/btnVideo"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
+        android:translationX="170dp"
+        android:translationY="350dp"
         android:text="Button" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
+        android:id="@+id/btnCamera"
+        android:layout_width="80dp"
+        android:translationY="450dp"
+        android:translationX="170dp"
         android:layout_height="wrap_content"
+
         android:text="Button" />
 </LinearLayout>
